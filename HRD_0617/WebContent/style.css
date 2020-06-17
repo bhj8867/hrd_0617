@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+header{
+	background-color: blue;
+	text-align: center;
+}
+header #logo {
+	float: center;
+	vertical-align: middle;
+	text-align: center;
+	margin: 10px 0px 5px 20px; /* 시계방향 */
+	color: white;
+	font-size: 48px;
+}
+footer { /* footer전체 스타일 */
+	clear:both;
+	height: 70px;
+	background-color: blue;
+	font-size:14px;
+	text-align: center;
+}
+footer #copyright { /* footer 안에 id -># */
+	margin: 0px 0 0 0px;
+	padding: 30px 0 20px 0;
+	float: center;
+	font-family: consolas;
+	color: white;
+}
+
+
+nav {
+	margin: 0 20px 20px 0; /* footer,content 영역간의 간격  */
+	padding: 0 0 10px 0; /* nav 자체의 간격 */
+	
+	width: 100%;
+	height: 50%;
+	float: left;
+	background-color: #8000ff;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display:inline; 
+	/* list-style: none;  */
+	float: left;
+	margin: 0 5px;
+	
+	
+}
+
+nav a {
+	dispaly: block;
+	padding: 5px 5px 8px 5px;
+	height: 20px;
+	text-decoration: none;
+	color : white;
+	border-style: hidden hidden solid hidden;
+	border-color: transparent;
+}
+h2{
+	text-align: center;
+}
+div.section {
+	background-color: #efefef;
+	height: 580px;
+	width: 100%;
+}
+caption{
+	font-size:25px;
+	align:center;
+}
+table{
+	
+}
