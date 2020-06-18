@@ -5,9 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>main</title>
-
-
+<link type="text/css" rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<header>
 		<jsp:include page="header.jsp"></jsp:include>

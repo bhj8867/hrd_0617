@@ -7,6 +7,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>성적입력</title>
 
+<link type="text/css" rel="stylesheet" href="style.css">
+
 <script type="text/javascript">
 	function check() {
 		if (document.form.sno.value == "") {
