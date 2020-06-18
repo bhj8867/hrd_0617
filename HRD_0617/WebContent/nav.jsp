@@ -11,6 +11,7 @@
 		<ul>
 			<li><a href="insert.jsp">성적입력</a></li>
 			<li><a href="select.jsp">성적조회</a></li>
+			<li><a href="delete.jsp">성적삭제</a></li>
 			<li><a href="index.jsp">홈으로</a></li>
 		</ul>
 	

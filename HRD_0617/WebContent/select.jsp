@@ -55,7 +55,8 @@
 							pstmt = conn.prepareStatement(sql);
 							rs = pstmt.executeQuery();
 
-							while (rs.next()) {
+							while (rs.next()) {//DB에 있는 데이터를 하나씩 모두 불러 들인다.
+								
 								//request.getParameter 폼에 있는 데이터 넘겨받을때
 								//rs.getString : 디비에 있는 데이터를 받아올때
 
@@ -91,7 +92,7 @@
 						<td align="right"><%=math%></td>
 						<td align="right"><%=hist%></td>
 						<td align="right"><%=total%></td>
-						<td align="right"><%=(float) (total) / 4%></td>
+						<td align="right"><%=(float)total/4%></td>
 					</tr>
 					<%
 						}
@@ -106,12 +107,16 @@
 								conn.close();
 						}
 						//총합계의 평균
-						akor = (float) tkor / count;
-						aeng = (float) teng / count;
-						amath = (float) tmath / count;
-						ahist = (float) thist / count;
-						atotal = (float) ttotal / count;
-						aavg = (float) tavg / count;
+						//변수를 float으로 설정해도 값에 (float)를 하지 않으면 정수반환후 소수점만 붙게 된다.
+						/*folat num=3.14159;
+						Math.round(num*1000)/1000.0f;더블형으로 선택하면 f를 	붙이지 않아도 된다.*/
+						akor = Math.round((float) tkor / count*1000)/1000.0f;
+						aeng = Math.round((float) teng / count*1000)/1000.0f;
+						amath = Math.round((float) tmath / count*1000)/1000.0f;
+						ahist = Math.round((float) thist / count*1000)/1000.0f;
+						atotal = Math.round((float) ttotal / count*1000)/1000.0f;
+						aavg = Math.round((float) tavg / count*1000)/1000.0f;
+						
 					%>
 
 					<tr>

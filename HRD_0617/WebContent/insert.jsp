@@ -55,44 +55,37 @@
 
 					<tr align="center">
 						<td>학번</td>
-						<td align="left"><input type="text" name="sno" size="20"
-							value=""></td>
+						<td align="left"><input type="text" name="sno" size="20" value=""></td>
 					</tr>
 
 					<tr align="center">
 						<td>성명</td>
-						<td align="left"><input type="text" name="sname" size="20"
-							value=""></td>
+						<td align="left"><input type="text" name="sname" size="20" value=""></td>
 					</tr>
 
 					<tr align="center">
 						<td>국어</td>
-						<td align="left"><input type="text" name="kor" size="20"
-							value=""></td>
+						<td align="left"><input type="text" name="kor" size="20" value=""></td>
 					</tr>
 
 					<tr align="center">
 						<td>영어</td>
-						<td align="left"><input type="text" name="eng" size="20"
-							value=""></td>
+						<td align="left"><input type="text" name="eng" size="20" value=""></td>
 					</tr>
 
 
 					<tr align="center">
 						<td>수학</td>
-						<td align="left"><input type="text" name="math" size="20"
-							value=""></td>
+						<td align="left"><input type="text" name="math" size="20" value=""></td>
 					</tr>
 
 					<tr align="center">
 						<td>역사</td>
-						<td align="left"><input type="text" name="hist" size="20"
-							value=""></td>
+						<td align="left"><input type="text" name="hist" size="20" value=""></td>
 					</tr>
 
 					<tr align=center>
-						<td colspan="2"><input type="button" value="성적저장"
-							onclick="javascript:check()"></td>
+						<td colspan="2"><input type="button" value="성적저장" onclick="javascript:check()"></td>
 				</table>
 			</form>
 		</div>
